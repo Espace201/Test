@@ -7,8 +7,7 @@ if a.isdigit() or b == 1 or a[0] == '-' and a[1:].isdigit():
         print('Число положительное')
     elif a < 0:
         print('Число отрицательное')
-    elif a == 0:
-        print('Ноль')
+    elif a == 0:      print('Ноль')
 
 else:
     print('Введите число')
